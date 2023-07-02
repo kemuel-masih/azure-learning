@@ -1,0 +1,117 @@
+Learning Plan (Week 1)
+Windows PowerShell
+Introduction To PowerShell
+Cmdlets
+Modules
+Rest API’s
+Remote Management
+Custom Script Extensions
+GIT 
+Version Controlling System, Tools
+GIT Commands
+Git Strategies
+Working With GitHub
+Policies & Pull Requests
+
+Learning Plan (Week 2)
+Shell Scripting
+Introduction To Shell
+Basic Commands and shell scripting
+Networking
+Introduction To Networking, Classful and Classless routing
+Subnets, Masking
+Public, and Private IP
+Route Table, Firewall, NAT
+
+Learning Plan (Week 3)
+Azure
+About Azure Cloud, Regions, Zones, Data Center and Availability Sets
+Active Directory Management
+Policies and RBAC
+Subscriptions & Types
+Resource Groups
+Types of Service models IAAS, PAAS, SAAS
+Virtual Machine
+Storage Account, SQL server and Database
+Virtual Network
+Azure Web App Service
+
+Learning Plan (Week 4)
+Azure - 2
+Load Balancers
+Application Gateway
+Key Vault
+Logic App
+Function App
+Recovery Service Vault
+ARM templates
+Azure PowerShell and CLI module
+Azure Monitor
+
+
+Learning Plan (Week 5)
+Docker
+Introduction to Docker and its workflow
+Docker commands
+Images, Containers, Volumes
+About Dockerfile and steps to create a Dockerfile 
+Docker-Compose file
+Docker networks and types 
+
+Learning Plan (Week 6)
+Terraform
+Basics of terraform Language
+Terraform providers, variables, outputs
+Basic Terraform commands (init, plan, apply)
+Creating Modules
+Configuring remote backend
+
+Learning Plan (Week 7)
+Kubernetes
+Learn about basic kubernetes Architecture
+Master and worker node (API Server, Scheduler, Controller Manager, etcd - the cluster brain)
+K8s objects (Read about Pods, Service, Replicasets, Replica-controller, secrets, config maps, Volume,Namespace, Jobs, Daemonsets), Labels, selectors.
+Setup Minikube on the local machine
+Understanding the difference between a minikube and an independent cluster.
+Understand the Kubectl command line tool for managing the cluster
+Learn Azure Kubernetes service and architecture of AKS
+
+Learning Plan (Week 8)
+Jenkins
+Understanding About Jenkins & Architecture
+About CI/CD process
+Installation and Configuration of Jenkins on Server
+RBAC Role Creation and user account setup
+Jenkins Job and File
+Multi-Stage Pipelines Job Creation
+Pipeline script (create pipeline jobs using the groovy script)
+
+
+Learning Plan (Week 9)
+Azure DevOps
+Introduction to Azure DevOps
+Basics of Agile methodology
+The difference between TFS and VSTS
+Difference between Server & Services
+Azure DevOps Components: Boards, Repos, Pipelines
+About Agent and Deployment pools
+Branch and Build policies
+Yaml and custom Pipeline Jobs
+Security Testing Integration
+Static and Dynamic Application Security Testing
+Difference between Static and Dynamic security testing
+
+Create a .NET core-based sample web application with MSSQL as the backend database server using the below information:
+
+Develop web applications using visual studio, vscode, or any editor
+Create a repo on Azure DevOps to store the application code 
+Implement GIT workflow strategy on the source code
+Implement branch and build policy on the repository to prevent bad code commits
+Create infrastructure as code using Terraform to deploy the resources (Web app service, SQL Service)
+Deploy the Terraform IAC using Azure pipelines
+Dockerize the sample web application you created and push the image to ACR
+Deploy the application using Jenkins job on to azure web app
+Test the web application execution and fetch the data from database
+Deploy the dockerized app on a minikube cluster hosted in a VM(VM should be created using terraform script and kubectl, minikube should be installed in it). Use Azure Pipelines for the deployment.
+
+
